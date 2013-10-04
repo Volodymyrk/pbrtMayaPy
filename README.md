@@ -50,8 +50,7 @@ Requirements
 Installation
 -------------
 
-1. Get the source by pressing "Download ZIP" on the right (or by cloning
-this repository). Unzip in any folder, e.g.: $HOME/youMayaStuff/pbrtMayaPy/ 
+1. Get the source by pressing "Download ZIP" on the right (or via git). Unzip to any folder, e.g.: $HOME/youMayaStuff/pbrtMayaPy/ 
 
 2. Download and compile PBRT from http://pbrt.org/downloads.php
 
@@ -61,7 +60,10 @@ this repository). Unzip in any folder, e.g.: $HOME/youMayaStuff/pbrtMayaPy/
 
 3. Load the plugin in Maya using Plug-in Manager
 
-3. Press "Export and Render" from the top menu or execute MEL: pbrt_export
+3. Press "Export and Render" from the top menu or execute MEL: pbrt_export (python: cmds.pbrt_export)
+
+![screenshot](https://raw.github.com/Volodymyrk/Volodymyrk.github.io/master/pbrtMayaPy.png)
+
 
 
 
