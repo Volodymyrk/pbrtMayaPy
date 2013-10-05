@@ -55,12 +55,12 @@ Installation
 2. Download and compile PBRT from http://pbrt.org/downloads.php
 
 3. Set the following Environment variables (you can add the following to your Maya.env):
-* MAYA_PLUG_IN_PATH = $HOME/youMayaStuff/pbrtMayaPy/
-* PBRT_SEARCHPATH = $HOME/youMayaStuff/pbrt-v2/Build/Products/Release/
+ * MAYA_PLUG_IN_PATH = $HOME/youMayaStuff/pbrtMayaPy/
+ * PBRT_SEARCHPATH = $HOME/youMayaStuff/pbrt-v2/Build/Products/Release/
 
-3. Load the plugin in Maya using Plug-in Manager
+4. Load the plugin in Maya using Plug-in Manager
 
-3. Press "Export and Render" from the top menu or execute MEL: pbrt_export (python: cmds.pbrt_export)
+5. Press "Export and Render" from the top menu or execute MEL: pbrt_export (python: cmds.pbrt_export)
 
 ![screenshot](https://raw.github.com/Volodymyrk/Volodymyrk.github.io/master/pbrtMayaPy.png)
 
